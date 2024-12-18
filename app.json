@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "template",
-    "slug": "template",
+    "name": "Tp1",
+    "slug": "Tp1",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,10 +18,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.diary7.Tp1"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8c3c08ce-c677-4540-a66d-01c0e714139d"
+      }
     }
   }
 }
