@@ -18,10 +18,9 @@ interface Feature {
 export default function HomeScreen() {
     const [features,setFeatures] = useState(dataFeatures);
 
-    console.log(features);
-    console.log(features.length);
+    // console.log(features);
+    // console.log(features.length);
     const [loading,setLoading] = useState(true);
-    console.log("Les features sont "+features);
     useEffect(()=>{
         // axios.get("http://"+constantes.ip+":8081/data/features.js")
         // .then((response)=>{
