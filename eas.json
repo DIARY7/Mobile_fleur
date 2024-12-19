@@ -7,15 +7,24 @@
     "development": {
       "developmentClient": true,
       "distribution": "internal",
-      "owner": "diary7"
+      "owner": "diary7",
+      "android": {
+        "image": "latest"
+      }
     },
     "preview": {
       "distribution": "internal",
-      "owner": "diary7"
+      "owner": "diary7",
+      "android": {
+        "image": "latest"
+      }
     },
     "production": {
       "autoIncrement": true,
-      "owner": "diary7"
+      "owner": "diary7",
+      "android": {
+        "image": "latest"
+      }
     }
   },
   "submit": {
